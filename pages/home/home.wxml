@@ -1,0 +1,62 @@
+<!--pages/home.wxml-->
+<view class="search-bar">
+  <image class="search-icon" src="http://sbnpdxvd3.hb-bkt.clouddn.com/search.png" />
+  <input class="search-input" type="text" placeholder="搜索" />
+
+
+</view>
+<!-- <view class="search_bar">
+<view class="wbk">
+<input type="text"/>
+</view>
+<view class="ss">搜索🔍</view>
+</view> -->
+<swiper indicator-dots circular indicator-color="white" indicator-active-color="gray">
+  <swiper-item >  
+           <navigator url="/pages/proInfo/index?id=0"  hover-class="navigator-hover">  
+            <image  src="http://sbnpdxvd3.hb-bkt.clouddn.com/home16.jpg" class="slide-image" mode="widthFix"  ></image>  
+           </navigator>   
+        </swiper-item>  
+  <swiper-item>
+    <image src="http://sbnpdxvd3.hb-bkt.clouddn.com/home3.png"  style="border-radius: 10px;" />
+  </swiper-item>
+  <swiper-item>
+    <image src="http://sbnpdxvd3.hb-bkt.clouddn.com/home4.png"  style="border-radius: 10px;" />
+  </swiper-item>
+  <swiper-item>
+    <image src="http://sbnpdxvd3.hb-bkt.clouddn.com/home6.png" style="border-radius: 10px;" />
+  </swiper-item> 
+  <swiper-item>
+    <image src="http://sbnpdxvd3.hb-bkt.clouddn.com/home7.png"  style="border-radius: 10px;"/>
+  </swiper-item>
+</swiper>
+
+
+<view class="wz1">
+<view class="wz11">
+<text>探 索 更 多</text>
+</view>
+<view class="wz12">
+  <text>Explore More</text> 
+</view>
+</view>
+ 
+<view class="wz2">
+<text>
+: )  更多，更好，更满意
+</text>
+</view>
+
+
+<view class="tp">
+<navigator url="/pages/zixun/zixun" hover-class="navigator-hover">
+<view class="tp1">
+<image src="http://sbnpdxvd3.hb-bkt.clouddn.com/home1.png" mode="heightFix" />
+</view>
+</navigator>
+<navigator url="/pages/chaoshi/chaoshi" hover-class="navigator-hover">
+<view class="tp2">
+<image src="http://sbnpdxvd3.hb-bkt.clouddn.com/home8.png" mode="heightFix" />
+</view>
+</navigator>
+</view>

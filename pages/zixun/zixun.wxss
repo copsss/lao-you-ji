@@ -1,0 +1,116 @@
+/* pages/zixun/zixun.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.header  {
+  width: 800rpx;
+  margin-bottom: 10px;
+  height: 410rpx;
+}
+.header image{
+  width: 100%;
+  height: 100%;
+}
+
+.post {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+}
+.wz{
+  margin-bottom:15rpx;
+}
+.meta{
+  display: flex;
+}
+.wy{
+  display: flex;
+}
+.wy image{
+  width: 100%;
+  height: 100%;
+}
+.meta text {
+  display: block;
+  color: #666;
+  font-size: 24rpx;
+  margin-right: 30rpx;
+}
+.content1{
+  font-size: 24rpx;
+  font-weight: 100;
+  margin-top: 15rpx;
+}
+.sb{
+  display: flex;
+  flex-direction: column;
+}
+.xb{
+  display: flex;
+  
+}
+.xb1{
+  margin-left: -50rpx;
+  margin-right: 470rpx;
+  font-size: medium;
+  font-weight: 550;
+}
+.xb2{
+  margin-right: -50rpx;
+}
+.pl{
+  display: flex;
+}
+.pl00{
+  display: flex;
+  flex-direction: column;
+}
+.pl0{
+  height: 110rpx;
+  width: 110rpx;
+  margin-left: -20rpx;
+  margin-right: 20rpx;
+}
+.pl0 image{
+  width: 100%;
+  height: 100%;
+}
+.pl1{
+  display: flex;
+  flex-direction: column;
+  margin-right: 320rpx;
+  margin-top: 20rpx;
+}
+.pl2{
+  font-weight: 550;
+  font-size: 27rpx;
+}
+.pl3{
+  font-weight: 100;
+  font-size: 24rpx;
+}
+.pl4{
+  margin-top: 15rpx;
+}
+.pl5{
+  font-weight: 550;
+  margin-top: 15rpx;
+  font-size: 27rpx;
+}
+.pl6{
+  width: 30rpx;
+  height: 30rpx;
+}
+.pl6 image{
+  height: 100%;
+  width: 100%;
+}

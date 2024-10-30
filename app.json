@@ -1,0 +1,55 @@
+{
+  "pages": [
+
+    
+    "pages/home/home",
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/proInfo/index",
+    "pages/chat/chat",
+    "pages/chaoshi/chaoshi",
+    "pages/zixun/zixun"
+    
+    
+    
+   
+    
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "chat ",
+    "navigationBarBackgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "home",
+        "iconPath": "/photo/index.png",
+        "selectedIconPath": "/photo/index.png"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "AI",
+        "iconPath": "photo/地块32x32.png",
+        "selectedIconPath": "photo/地块32x32hl.png"
+      },
+   
+     
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "mine",
+        "iconPath": "/photo/我的32x32.png",
+        "selectedIconPath": "/photo/我的32x32hl.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

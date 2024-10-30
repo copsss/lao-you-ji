@@ -1,0 +1,92 @@
+/* pages/home/home.wxss */
+/* styles.wxss */
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.search-input {
+  flex: 1;
+  height: 28px;
+  margin-right: 10px;
+  border: none;
+  outline: none;
+  background:white;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+}
+/* .wbk{
+  width: 83%;
+}
+.ss{
+  width: 17%;
+  text-align: center;
+  border-left: 5rpx solid gray;
+}
+.search_bar{
+  border: 5rpx solid gray;
+  width: 650rpx ;
+  margin-top: 15rpx;
+  margin-left: 45rpx;
+  margin-right: 30rpx;
+  display: flex;
+  height: 40rpx;
+} */
+swiper{
+  margin-top: 15rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  height:800rpx;
+  border-radius: 10rpx;
+}
+swiper image{
+  height: 100%;
+  width: 100%;
+  border-radius: 10rpx;
+}
+.wz1{
+  display: flex;
+  justify-content: space-around;
+  height: 10rpx;
+}
+.wz11{
+  width: 60%;
+}
+.wz11 text{
+  font-size: large;
+  color: goldenrod;
+}
+.wz12 text{
+  font-size: small;
+  color: goldenrod;
+}
+.wz2{
+  height: 20rpx;
+  justify-content: space-around;
+  margin-left: 30rpx;
+}
+.wz2 text{
+  font-size: small;
+  color: goldenrod;
+}
+.tp{
+  display: flex;
+  margin-top: 80rpx;
+  justify-content: space-around;
+  
+}
+.tp image{
+  height: 330rpx;
+  width: 330rpx;
+  border-radius: 15rpx;
+  border: 1rpx #efefef;
+  box-shadow: 1rpx 1rpx 20rpx #ddd;
+}
+

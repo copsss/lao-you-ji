@@ -1,0 +1,129 @@
+<!--pages/chaoshi/chaoshi.wxml-->
+<view class="custom-nav" style="padding-top: {{statusBarHeight}}px;">
+  <view class="search-bar">
+    <input class="search-input" type="text" placeholder="搜索商品" />
+  </view>
+</view>
+
+<view class="container">
+  <view class="images-row">
+    <view class="image-container" wx:for="{{shigetp}}" wx:key="url">
+      <image class="product-image" src="{{item.url}}"></image>
+      <text class="image-text">{{item.text}}</text>
+    </view>
+  </view>
+  <view class="images-row">
+    <view class="image-container" wx:for="{{shigetp2}}" wx:key="url">
+      <image class="product-image" src="{{item.url}}"></image>
+      <text class="image-text">{{item.text}}</text>
+    </view>
+  </view>
+</view>
+
+<view class="bjx">
+
+<view class="kapian">
+<view class="kapian1">
+<view class="bt1"> 
+<text>今日值得抢</text>
+</view>
+<view class="bt2">
+<view class="tp1">
+<image src="http://sbnpdxvd3.hb-bkt.clouddn.com/store12.jpg" />
+</view>
+<view class="sb">
+<view><text class="mb">赣南济橘</text></view>
+<view class="leile"><text class="mb2">¥19.9/箱</text><text class="mb3">¥23.9</text></view>
+</view>
+</view>
+</view>
+<view class="kapian01">
+<view class="bt1"> 
+<text>热卖榜单</text>
+</view>
+<view class="lia">
+<image class="wy" src="http://sbnpdxvd3.hb-bkt.clouddn.com/store2.jpg" />
+<image class="wy1" src="http://sbnpdxvd3.hb-bkt.clouddn.com/store3.jpg" />
+</view>
+</view>
+</view>
+
+<view class="kapian">
+  <view class="kapian1">
+<view class="bt1"> 
+<text>击穿价</text>
+</view>
+<view class="bt2">
+<view class="tp1">
+<image src="http://sbnpdxvd3.hb-bkt.clouddn.com/store4.jpg" />
+</view>
+<view class="sb">
+<view><text class="mb">统一红烧牛肉面</text></view>
+<view class="leile"><text class="mb2">¥3.8/袋</text><text class="mb3">¥5.2</text></view>
+</view>
+</view>
+</view>
+<view class="kapian01">
+<view class="bt1"> 
+<text>时令新品</text>
+</view>
+<view class="lia">
+<image class="wy"  src="http://sbnpdxvd3.hb-bkt.clouddn.com/store5.jpg" />
+<image class="wy1" src="http://sbnpdxvd3.hb-bkt.clouddn.com/store6.jpg" />
+</view>
+</view>
+</view>
+
+
+<view class="shangping">  
+
+<view class="kp1">
+<view><image class="tupian" src="http://sbnpdxvd3.hb-bkt.clouddn.com/store14.jpg" mode="widthFix"/></view>
+<view><text class="wz">彩虹雨有机蔬菜胡萝卜500g京津冀满百包邮</text></view>
+<view class="qiba"><text class="wz1">¥19.8</text><text class="wz2">/500g</text><view class="anniu"  data-id="{{item.id}}" ><text class="jiahao" >+</text></view></view>
+</view>
+
+<view class="kp2">
+<view><image class="tupian" src="http://sbnpdxvd3.hb-bkt.clouddn.com/store7.jpg" mode="widthFix"/></view>
+<view><text class="wz">维达 蓝色经典卷纸200g27卷卫生纸</text></view>
+<view class="qiba"><text class="wz1">¥59.9</text><text class="wz22">起</text><view class="anniu"  data-id="{{item.id}}"><text class="jiahao">+</text></view></view>
+</view>
+
+</view>
+
+
+
+<view class="shangping">  
+
+<view class="kp3">
+<view><image class="tupian" src="http://sbnpdxvd3.hb-bkt.clouddn.com/store8.jpg" mode="widthFix"/></view>
+<view><text class="wz">雪花啤酒纯生8度500ml*24听经典拉格啤酒整箱装</text></view>
+<view class="qiba"><text class="wz1">¥139</text><text class="wz2">/500g</text><view class="anniu"  data-id="{{item.id}}" ><text class="jiahao">+</text></view></view>
+</view>
+
+<view class="kp4">
+<view><image class="tupian" src="http://sbnpdxvd3.hb-bkt.clouddn.com/store9.jpg" mode="widthFix"/></view>
+<view><text class="wz">康师傅牛肉面24袋多口味整箱装</text></view>
+<view class="qiba"><text class="wz1">¥51.9</text><text class="wz2">/24袋</text><view class="anniu"  data-id="{{item.id}}" ><text class="jiahao">+</text></view></view>
+</view>
+
+</view>
+
+</view>
+
+
+<view class="iii"><text>更多商品，敬请期待...</text></view>
+
+
+<view>
+
+
+
+</view>
+
+
+
+
+
+
+

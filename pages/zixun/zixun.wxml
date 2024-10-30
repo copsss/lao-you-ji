@@ -1,0 +1,69 @@
+<view class="container">
+  <view class="header">
+    <image src="http://sbnpdxvd3.hb-bkt.clouddn.com/微信图片_20240316111739.jpg" />
+  </view>
+  <view class="post">
+    <view class="title"><text class="wz">探店实拍 | 大家的家朝阳社区，北京城心的</text> <text>养老社区是什么样的?</text> </view>
+    <view class="meta">
+      <view class="wy">   <text>👤美好社区报道</text></view>
+        <view class="wy">  <text>⏰2024-03-07 18:45:34</text></view>
+    </view>
+    <view class="sb">
+    <view class="content1">
+      用眼睛去旅行，能进基地的探索社区，看看我们扎了之后是什么样子。
+    </view>
+    <view class="content1">
+      全网同名：社区养老情报局
+    </view>
+    <view class="content1">
+      做最真实的养老社区测评和干货分享！
+    </view>
+  </view>
+  </view>
+  <view class="xb">
+  <view class="xb1">全部120条评论</view>
+  <view class="xb2">></view> 
+  </view>
+
+<view class="pl00">
+
+  <view class="pl">
+  <view class="pl0"> <image src="http://sbnpdxvd3.hb-bkt.clouddn.com/微信图片_20240316120841.jpg" /></view>
+  <view class="pl1">
+  <view class="pl2">翠英</view>
+  <view class="pl3">内蒙古 呼和浩特</view>
+  <view class="pl4">说得好👍👍👍</view>
+  <view class="pl5">回复</view>
+  </view>
+  <view class="pl6"  > <image src="{{dz}}" bind:tap="onLikeTap" /></view>
+  </view>
+  
+  <view class="pl">
+  <view class="pl0"> <image src="http://sbnpdxvd3.hb-bkt.clouddn.com/微信图片_20240316120849.jpg" /></view>
+  <view class="pl1">
+  <view class="pl2">智博麻将棋牌</view>
+  <view class="pl3">四川 绵阳</view>
+  <view class="pl4">不怕老，不服老!</view>
+  <view class="pl5">回复</view>
+  </view>
+  <view class="pl6"  > <image src="{{dz}}" bind:tap="onLikeTap" /></view>
+  </view>
+
+  <view class="pl">
+  <view class="pl0"> <image src="http://sbnpdxvd3.hb-bkt.clouddn.com/微信图片_20240316120857.jpg" /></view>
+  <view class="pl1">
+  <view class="pl2">家养小猫</view>
+  <view class="pl3">北京 朝阳</view>
+  <view class="pl4">我们养老院</view>
+  <view class="pl5">回复</view>
+  </view>
+  <view class="pl6"  > <image src="{{dz}}" bind:tap="onLikeTap" /></view>
+  </view>
+
+  
+
+
+
+</view>
+
+</view>

@@ -1,0 +1,259 @@
+/* pages/chaoshi/chaoshi.wxss */
+/* pages/index/index.wxss */
+.custom-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rpx;
+  background-color: #fff;
+  width: 500rpx;
+  height: 100rpx;
+}
+
+.search-bar {
+  flex-grow: 1;
+  /* 考虑状态栏的高度 */
+  padding: 10rpx 15rpx;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10rpx;
+  border-radius: 15rpx;
+  border: 1px solid #ddd;
+  background-color: #f1f1f1;
+  height: 10rpx;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar {
+  margin: 10px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+}
+.container{
+transform: translateY(-200rpx);
+margin-left: 50rpx;
+height: 300rpx;
+}
+.images-row{
+  display: flex;
+  margin-top: 10rpx;
+}
+
+.image-container{
+  width: 150rpx;
+  height: 150rpx;
+  display: flex;
+  flex-direction: column;
+}
+.product-image{
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+}
+.image-text{
+  font-size:smaller;
+  margin-top: 7rpx;
+  color: darkgoldenrod;
+}
+
+.bjx{
+border-top: 3rpx solid #ddd;
+height: 1400rpx;
+transform: translateY(-76rpx);
+background-color: rgba(235, 230, 230, 0.438);
+}
+.kapian{
+  display: flex;
+  height: 190rpx;
+  justify-content: space-around;
+  margin-bottom: 15rpx;
+  margin-top: 15rpx;
+}
+.kapian1{
+  border: 1rpx solid #ddd;
+  width: 350rpx;
+  border-radius: 15rpx;
+  box-shadow: 1rpx 1rpx 10rpx #ddd;
+  background-image: linear-gradient(45deg,rgba(255, 166, 0, 0.356),white);
+}
+.bt1{
+  font-weight: 550;
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+}
+.bt2{
+  height: 250rpx;
+  width: 600rpx;
+  display: flex;
+  margin-left: 10rpx;
+}
+.tp1{
+  height: 100rpx;
+  width: 100rpx;
+}
+.tp1 image{
+   height: 100%;
+   width: 100%;
+   border-radius: 50%;
+   margin-top: 13rpx;
+}
+.sb{
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+.mb{
+  font-weight: 550;
+  font-size: small;
+  margin-left: 10rpx;
+}
+.mb2{
+  color: red;
+  font-style: italic;
+}
+.mb3{
+  font-style: italic;
+  font-size: small;
+  text-decoration: line-through;
+  margin-left: 10rpx;
+}
+.leile{
+  transform: translateY(40rpx);
+}
+.lia{
+  display: flex;
+}
+.lia image{
+  border-radius: 15rpx;
+  height: 120rpx;
+  width: 120rpx;
+  margin-top: 5rpx;
+}
+.kapian01{
+  border: 1rpx solid #ddd;
+  width: 350rpx;
+  border-radius: 15rpx;
+  box-shadow: 1rpx 1rpx 10rpx #ddd;
+  background-image: linear-gradient(to bottom,rgba(0, 255, 34, 0.5),rgba(224, 212, 212, 0.418));
+}
+.wy{
+  margin-left: 10rpx;
+}
+.wy1{
+  margin-left: 30rpx;
+  
+}
+.shangping{
+  display: flex;
+  justify-content: space-around;
+}
+.kp1{
+  border: 1rpx solid rgb(190, 185, 185);
+  width: 350rpx;
+  border-radius: 15rpx;
+  box-shadow: 1rpx 1rpx 4rpx white;
+  display: flex;
+  flex-direction: column;
+  height: 470rpx;
+  border-radius: 15rpx;
+  background-color: white;
+}
+.wz{
+  font-weight: 550;
+}
+.wz1{
+color: red;
+}
+.wz2{
+  font-size: small;
+  margin-right: 138rpx;
+  margin-top: 3.8rpx;
+}
+.anniu{
+  background-color: green;
+  border-radius: 50%;
+ width: 13%;
+ justify-content: center;
+ align-items: center;
+ margin-top: -10rpx;
+ margin-right: 10rpx;
+}
+.jiahao{
+  color: white;
+  font-weight: 550;
+  font-size: large;
+  margin-left: 9rpx;
+}
+.tupian{
+  width: 100%;
+  border-radius: 15rpx;
+}
+.qiba{
+  display: flex;
+  margin-top: 20rpx;
+  justify-content: space-between
+}
+.kp2{
+  border: 1rpx solid rgb(190, 185, 185);
+  width: 350rpx;
+  border-radius: 15rpx;
+  box-shadow: 1rpx 1rpx 4rpx white;
+  display: flex;
+  flex-direction: column;
+  height: 515rpx;
+  border-radius: 15rpx;
+  background-color: white;
+}
+.wz22{
+  font-size: small;
+  margin-right: 175rpx;
+  margin-top: 5rpx;
+}
+.kp3{
+  border: 1rpx solid rgb(190, 185, 185);
+  width: 350rpx;
+  border-radius: 15rpx;
+  box-shadow: 1rpx 1rpx 4rpx white;
+  display: flex;
+  flex-direction: column;
+  height: 560rpx;
+  border-radius: 15rpx;
+  margin-top: -30rpx;
+  background-color: white;
+}
+.kp4{
+  border: 1rpx solid rgb(190, 185, 185);
+  width: 350rpx;
+  border-radius: 15rpx;
+  box-shadow: 1rpx 1rpx 4rpx white;
+  display: flex;
+  flex-direction: column;
+  height: 570rpx;
+  border-radius: 15rpx;
+  margin-top: 12rpx;
+  background-color: white;
+}
+.iii{
+  color:rgb(250, 181, 52);
+  margin-top: 60rpx;
+  justify-content:center;
+  margin-left: 230rpx;
+} 
+
+
+
+
+
+
